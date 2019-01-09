@@ -1,0 +1,57 @@
+.sidebar-fixed {
+  height: 100%;
+  width: 207px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidebar-user__avatar {
+  width: 60px;
+  height: 60px;
+  margin-left: 10px;
+}
+
+.sidebar-user__name {
+  font-size: 15px;
+  position: relative;
+  bottom: 8px;
+  color: white;
+}
+
+.sidebar-user__job {
+  position: relative;
+  bottom: 7px;
+  font-size: 12px;
+  color: cadetblue;
+}
+
+.sidebar-user {
+  display: inline-block;
+  position: relative;
+  top: 16px;
+  left: 16px;
+}
+
+.sidebar-count__box {
+  text-align: center;
+  font-size: 30px;
+  font-family: monospace;
+  margin-top: 80%;
+}
+
+.sidebar-count {
+  padding: 3px 7px;
+  font-size: 20px;
+  font-weight: 700;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  border-radius: 16px;
+  background-color: #5bc0de;
+}

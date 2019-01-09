@@ -1,0 +1,17 @@
+.grid-item {
+	display: inline-block;
+	margin-bottom: 10px;
+}
+
+.grid-item__caption-box {
+	margin-top: 5px;
+}
+
+.grid-item__caption {
+	font-size: 1.3rem;
+}
+
+.grid-item img {
+	width: 100%;
+	height: 100%;
+}

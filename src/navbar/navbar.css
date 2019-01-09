@@ -1,0 +1,20 @@
+.bg--blue {
+	background-color: #063e77;
+}
+
+.App-logo {
+    position: relative;
+    width: 35px;
+    bottom: 5px;
+    height: 35px;
+}
+
+.navbar {
+    margin-bottom: 0;
+    width: 85%;
+    position: fixed;
+    margin-left: 206px;
+    z-index: 1;
+}
+
+  

@@ -1,0 +1,28 @@
+.search-form__box {
+	display: flex;
+}
+
+.search-form {
+    position: relative;
+    top: 8px;
+    margin-left: 7%;
+}
+
+.search-form__input {
+	width: 330px;
+}
+
+.search-form__btn {
+	background-color: whitesmoke;
+	border-color: lightgrey;
+} 
+
+.search-form--left--borderless {
+	border-top-left-radius: 0;
+	border-bottom-left-radius: 0;
+}
+
+.search-form__btn-img {
+	width: 18px;
+}
+
