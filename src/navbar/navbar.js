@@ -16,7 +16,7 @@ class Navbar extends Component {
   render() {
     return(
       <nav className="navbar navbar-default justify-content-between">
-        <a className="navbar-brand" href="">
+        <a className="navbar-brand" href="#">
 				 <img src={logo} alt="logo" className="App-logo"/>
         </a>
       <SearchCards handlerFromNavbar={this.handleSearchCards}/>

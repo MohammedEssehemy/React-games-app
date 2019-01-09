@@ -16,8 +16,7 @@ class LazyImage extends Component {
 							scrollPosition={this.props.scrollPosition}
 							src={card.image}
 							width="100%"
-							effect="blur"
-							visibleByDefault="true"/>
+							effect="blur"/>
 						<div className="grid-item__caption-box">
 							<span className="grid-item__caption label label-primary">{card.name}</span>
 						</div>
