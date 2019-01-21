@@ -1,10 +1,22 @@
+.grid {
+    column-count: 5;
+    column-gap: 4em;
+}
+
 .grid-item {
 	display: inline-block;
-	margin-bottom: 10px;
+}
+
+.grid-item__img {
+	background-color:#efefef;
+	border-radius: 11%;
+	min-width: 200px;
+	min-height:140px;
 }
 
 .grid-item__caption-box {
 	margin-top: 5px;
+	margin-bottom: 10px;
 }
 
 .grid-item__caption {
