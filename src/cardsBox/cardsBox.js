@@ -78,11 +78,9 @@ class CardsBox extends Component {
     }
     else {
       return(
-        <div className="grid">
           <Suspense fallback={<div>Images..</div>}>
             <LazyImage cards={cards} scrollPosition={this.handleScroll}/>
           </Suspense>
-        </div>
       );
     }
   }
