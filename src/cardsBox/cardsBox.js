@@ -20,7 +20,7 @@ class CardsBox extends Component {
   componentWillUnmount() {
     window.removeEventListener('scroll', this.handleScroll);
 	}
-	
+
 	handleScroll = () => {
 		lastScrollY = window.scrollY;
 		lastScrollX = window.scrollX;
@@ -34,7 +34,7 @@ class CardsBox extends Component {
   componentDidMount() {
     window.addEventListener('scroll', this.handleScroll);
 
-    fetch("http://www.amiiboapi.com/api/amiibo/")
+    fetch("https://www.amiiboapi.com/api/amiibo/")
       .then(res => res.json())
       .then(
         (result) => {
